@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Kanit:wght@100&family=Righteous&family=Suez+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+}
+
+#nav .menu {
+  position: fixed;
+  -webkit-transform: translateX(450px) translateY(-45px);
+          transform: translateX(450px) translateY(-45px);
+}
+
+#nav .logo {
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  padding: 5px;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+  margin: 15px auto;
+  color: #d2dae2;
+  text-decoration: overline;
+  text-shadow: 5px 1px 15px #d2dae2;
+}
+
+#nav .link1 {
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+  padding: 15px;
+  margin: 20px;
+  color: #0be881;
+}
+
+#nav .link1:hover {
+  text-decoration: overline;
+  text-shadow: 5px 1px 15px #0be881;
+}
+
+#nav .sig_in {
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+  padding: 15px;
+  margin: 20px;
+  color: #FFC312;
+}
+
+#nav .sig_in:hover {
+  text-decoration: overline;
+  text-shadow: 5px 1px 15px #FFC312;
+}
+
+#nav .log_in {
+  position: absolute;
+  -webkit-transform: translateX(1100px) translateY(-45px);
+          transform: translateX(1100px) translateY(-45px);
+}
+
+#nav .sig_up {
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+  padding: 15px;
+  margin: 20px;
+  color: #FFC312;
+}
+
+#nav .sig_up:hover {
+  text-decoration: overline;
+  text-shadow: 5px 1px 15px #FFC312;
+}
+
+.header {
+  width: 100%;
+  height: 656px;
+  background-image: url("rasmlar/Global-BDG-deforastation-fallback_tcm244-531317.jpg");
+  background-repeat: no-repeat;
+}
+
+.header .container {
+  width: 1000px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .card {
+  position: relative;
+  cursor: pointer;
+}
+
+.header .container .card .face {
+  width: 300px;
+  height: 200px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.header .container .card:hover .face.face1 {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.header .container .card .face.face1 .content {
+  opacity: 0.2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header .container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.header .container .card .face.face1 .content img {
+  width: 200px;
+}
+
+.header .container .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.header .container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.header .container .card:hover .face.face2 {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.header .container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.header #header_header {
+  width: 1100px;
+  height: 400px;
+  -webkit-transform: translateY(150px) translateX(150px);
+          transform: translateY(150px) translateX(150px);
+}
+
+.header .container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #6ab04c;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #27ae60;
+}
+
+.header .container .card .face.face2 .content a:hover {
+  background: #6ab04c;
+  color: #fff;
+}
+
+/* Header */
+/* Header */
+/* maps */
+#map {
+  width: 100%;
+  height: 656px;
+}
+
+.rus {
+  height: 120px;
+  position: absolute;
+  -webkit-transform: translateX(750px) translateY(80px);
+          transform: translateX(750px) translateY(80px);
+}
+
+.tree {
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  -webkit-transform: translateX(787px) translateY(102px);
+          transform: translateX(787px) translateY(102px);
+}
+
+.map_logo {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  -webkit-transform: translateX(200px) translateY(-20px);
+          transform: translateX(200px) translateY(-20px);
+}
+
+.map_logo1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  -webkit-transform: translateX(80px);
+          transform: translateX(80px);
+}
+
+.text_rus {
+  position: absolute;
+  -webkit-transform: translateX(785px) translateY(190px);
+          transform: translateX(785px) translateY(190px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.uzb {
+  height: 120px;
+  position: absolute;
+  -webkit-transform: translateX(550px) translateY(350px);
+          transform: translateX(550px) translateY(350px);
+}
+
+.fff {
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  -webkit-transform: translateX(588px) translateY(370px);
+          transform: translateX(588px) translateY(370px);
+}
+
+.text_uzb {
+  position: absolute;
+  -webkit-transform: translateX(566px) translateY(460px);
+          transform: translateX(566px) translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.usa {
+  height: 120px;
+  position: absolute;
+  -webkit-transform: translateX(550px) translateY(350px);
+          transform: translateX(550px) translateY(350px);
+}
+
+.nat {
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  -webkit-transform: translateX(588px) translateY(370px);
+          transform: translateX(588px) translateY(370px);
+}
+
+.text_usa {
+  position: absolute;
+  -webkit-transform: translateX(575px) translateY(460px);
+          transform: translateX(575px) translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.map_logo2 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  -webkit-transform: translateX(-250px) translateY(-300px);
+          transform: translateX(-250px) translateY(-300px);
+}
+
+.map_logo3 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  -webkit-transform: translateX(480px) translateY(50px);
+          transform: translateX(480px) translateY(50px);
+}
+
+.text_aus {
+  position: absolute;
+  -webkit-transform: translateX(575px) translateY(460px);
+          transform: translateX(575px) translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.aus {
+  height: 120px;
+  position: absolute;
+  -webkit-transform: translateX(550px) translateY(350px);
+          transform: translateX(550px) translateY(350px);
+}
+
+.ff {
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  -webkit-transform: translateX(588px) translateY(370px);
+          transform: translateX(588px) translateY(370px);
+}
+
+.map_logo4 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  -webkit-transform: translateX(-460px) translateY(-40px);
+          transform: translateX(-460px) translateY(-40px);
+}
+
+.text_xit {
+  position: absolute;
+  -webkit-transform: translateX(575px) translateY(460px);
+          transform: translateX(575px) translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.xit {
+  height: 120px;
+  position: absolute;
+  -webkit-transform: translateX(550px) translateY(350px);
+          transform: translateX(550px) translateY(350px);
+}
+
+.hh {
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  -webkit-transform: translateX(588px) translateY(370px);
+          transform: translateX(588px) translateY(370px);
+}
+
+/* maps */
+/* Weather */
+#weather {
+  width: 100%;
+  height: 600px;
+  background-color: #74b9ff;
+}
+
+#weather .card1 {
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  -webkit-transform: translateX(100px) translateY(40px);
+          transform: translateX(100px) translateY(40px);
+  border-radius: 10px;
+}
+
+#weather .card1 #wind1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(20px);
+          transform: translateX(30px) translateY(20px);
+}
+
+#weather .card1 #wind1 #wind2 {
+  color: #1e272e;
+  margin: 100px;
+}
+
+#weather .card1 #hum1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(60px);
+          transform: translateX(30px) translateY(60px);
+}
+
+#weather .card1 #hum1 #hum2 {
+  margin: 100px;
+  color: #1e272e;
+}
+
+#weather .card1 #pres1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(100px);
+          transform: translateX(30px) translateY(100px);
+}
+
+#weather .card1 #pres1 #pres2 {
+  margin: 90px;
+  color: #1e272e;
+}
+
+#weather .card1 .icons1 {
+  width: 300px;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: #fdcb6ead;
+}
+
+#weather .card1 .icons1 .icon img {
+  width: 100px;
+}
+
+#weather .card1 .icons1 .icon p {
+  color: #795d0a;
+  -webkit-transform: translateY(-70px) translateX(160px);
+          transform: translateY(-70px) translateX(160px);
+  font-size: 25px;
+}
+
+#weather .card1 .icons1 .icon .p19 {
+  font-size: 60px;
+}
+
+#weather .card1 .icons1 .icon .dav {
+  font-size: 16px;
+  color: #795d0a;
+  position: absolute;
+  -webkit-transform: translateX(100px) translateY(40px);
+          transform: translateX(100px) translateY(40px);
+}
+
+#weather .card2 {
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  -webkit-transform: translateX(460px) translateY(-360px);
+          transform: translateX(460px) translateY(-360px);
+  border-radius: 10px;
+}
+
+#weather .card2 #wind1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(20px);
+          transform: translateX(30px) translateY(20px);
+}
+
+#weather .card2 #wind1 #wind2 {
+  color: #1e272e;
+  margin: 80px;
+}
+
+#weather .card2 #hum1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(60px);
+          transform: translateX(30px) translateY(60px);
+}
+
+#weather .card2 #hum1 #hum2 {
+  margin: 100px;
+  color: #1e272e;
+}
+
+#weather .card2 #pres1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(100px);
+          transform: translateX(30px) translateY(100px);
+}
+
+#weather .card2 #pres1 #pres2 {
+  margin: 90px;
+  color: #1e272e;
+}
+
+#weather .card2 .icons2 {
+  width: 300px;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: #fdcb6ead;
+}
+
+#weather .card2 .icons2 .icon1 img {
+  width: 100px;
+  margin: 10px;
+}
+
+#weather .card2 .icons2 .icon1 .cloudy {
+  color: #795d0a;
+  -webkit-transform: translateY(-90px) translateX(160px);
+          transform: translateY(-90px) translateX(160px);
+  font-size: 25px;
+}
+
+#weather .card2 .icons2 .icon1 .p12 {
+  color: #795d0a;
+  position: absolute;
+  -webkit-transform: translateY(-90px) translateX(150px);
+          transform: translateY(-90px) translateX(150px);
+  font-size: 60px;
+}
+
+#weather .card2 .icons2 .icon1 .coun {
+  font-size: 16px;
+  color: #795d0a;
+  position: absolute;
+  -webkit-transform: translateX(100px) translateY(20px);
+          transform: translateX(100px) translateY(20px);
+}
+
+#weather .card3 {
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  -webkit-transform: translateX(830px) translateY(-760px);
+          transform: translateX(830px) translateY(-760px);
+  border-radius: 10px;
+}
+
+#weather .card3 #wind1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(20px);
+          transform: translateX(30px) translateY(20px);
+}
+
+#weather .card3 #wind1 #wind2 {
+  color: #1e272e;
+  margin: 80px;
+}
+
+#weather .card3 #hum1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(60px);
+          transform: translateX(30px) translateY(60px);
+}
+
+#weather .card3 #hum1 #hum2 {
+  margin: 100px;
+  color: #1e272e;
+}
+
+#weather .card3 #pres1 {
+  position: absolute;
+  color: #535353;
+  -webkit-transform: translateX(30px) translateY(100px);
+          transform: translateX(30px) translateY(100px);
+}
+
+#weather .card3 #pres1 #pres2 {
+  margin: 90px;
+  color: #1e272e;
+}
+
+#weather .card3 .icons3 {
+  width: 300px;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: #fdcb6ead;
+}
+
+#weather .card3 .icons3 .icon2 img {
+  width: 100px;
+  margin: 10px;
+}
+
+#weather .card3 .icons3 .icon2 .rain {
+  color: #795d0a;
+  -webkit-transform: translateY(-90px) translateX(160px);
+          transform: translateY(-90px) translateX(160px);
+  font-size: 25px;
+}
+
+#weather .card3 .icons3 .icon2 .p8 {
+  color: #795d0a;
+  position: absolute;
+  -webkit-transform: translateY(-90px) translateX(160px);
+          transform: translateY(-90px) translateX(160px);
+  font-size: 60px;
+}
+
+#weather .card3 .icons3 .icon2 .count {
+  font-size: 16px;
+  color: #795d0a;
+  position: absolute;
+  -webkit-transform: translateX(100px) translateY(20px);
+          transform: translateX(100px) translateY(20px);
+}
+
+/* Weather */
+/*  footer */
+/* footer */
+/* card */
+/*# sourceMappingURL=style.css.map */

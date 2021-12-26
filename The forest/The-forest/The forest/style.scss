@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Kanit:wght@100&family=Righteous&family=Suez+One&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#nav{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  
+.menu{
+    position: fixed;
+    transform: translateX(450px)translateY(-45px);
+  }
+  
+  .logo{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    padding:5px;
+    transform: translateX(30px);
+    margin: 15px auto;
+    color: #d2dae2;
+    text-decoration: overline;
+    text-shadow: 5px 1px 15px #d2dae2;
+  }
+   .link1{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    padding:15px;
+    margin: 20px;
+    color:#0be881;
+  }
+  .link1:hover{
+    text-decoration:overline;
+    text-shadow: 5px 1px 15px rgb(11, 232, 129);
+  }
+  .sig_in{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    padding:15px;
+    margin: 20px;
+    color:#FFC312;
+  }
+  .sig_in:hover{
+    text-decoration: overline;
+    text-shadow: 5px 1px 15px #FFC312;
+  }
+  .log_in{
+    position: absolute;
+    transform: translateX(1100px)translateY(-45px);
+  }
+  .sig_up{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    padding:15px;
+    margin: 20px;
+    color:#FFC312;
+  }
+  .sig_up:hover{
+    text-decoration: overline;
+    text-shadow: 5px 1px 15px #FFC312;
+  }
+}
+.header{
+  width: 100%;
+  height: 656px;
+  background-image:url("rasmlar/Global-BDG-deforastation-fallback_tcm244-531317.jpg");
+  background-repeat: no-repeat;
+  .container{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .card{
+    position: relative;
+    cursor: pointer;
+  }
+  .container .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+  }
+  .container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+  }
+  .container .card:hover .face.face1{
+    transform: translateY(0);
+  }
+  .container .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+  }
+  .container .card:hover .face.face1 .content{
+    opacity: 1;
+  }
+  .container .card .face.face1 .content img{
+    width: 200px;
+  }
+  .container .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .container .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+  }
+  .container .card:hover .face.face2{
+    transform: translateY(0);
+  }
+  .container .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+  }
+  #header_header{
+    width: 1100px;
+    height: 400px;
+    transform: translateY(150px)translateX(150px);
+  }
+  .container .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color:#6ab04c;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #27ae60;
+  }
+  .container .card .face.face2 .content a:hover{
+    background: #6ab04c;
+    color: #fff;
+  }
+}
+/* Header */
+
+/* Header */
+
+/* maps */
+#map{
+  width: 100%;
+  height: 656px;
+}
+.rus{
+  height:120px;
+  position: absolute;
+  transform: translateX(750px)translateY(80px);
+}
+.tree{
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  transform:translateX(787px)translateY(102px);
+}
+.map_logo{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translateX(200px)translateY(-20px);
+}
+.map_logo1{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translateX(80px);
+}
+.text_rus{
+  position: absolute;
+  transform:translateX(785px)translateY(190px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+.uzb{
+  height:120px;
+  position: absolute;
+  transform: translateX(550px)translateY(350px);
+}
+.fff{
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  transform:translateX(588px)translateY(370px);
+}
+.text_uzb{
+  position: absolute;
+  transform:translateX(566px)translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+.usa{
+  height:120px;
+  position: absolute;
+  transform: translateX(550px)translateY(350px);
+}
+.nat{
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  transform:translateX(588px)translateY(370px);
+}
+.text_usa{
+  position: absolute;
+  transform:translateX(575px)translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+.map_logo2{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translateX(-250px)translateY(-300px);
+}
+.map_logo3{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translateX(480px)translateY(50px);
+}
+.text_aus{
+  position: absolute;
+  transform:translateX(575px)translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+.aus{
+  height:120px;
+  position: absolute;
+  transform: translateX(550px)translateY(350px);
+}
+.ff{
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  transform:translateX(588px)translateY(370px);
+}
+.map_logo4{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  transform: translateX(-460px)translateY(-40px);
+}
+.text_xit{
+  position: absolute;
+  transform:translateX(575px)translateY(460px);
+  color: #1e272e;
+  font-size: 20px;
+  text-decoration: none;
+}
+.xit{
+  height:120px;
+  position: absolute;
+  transform: translateX(550px)translateY(350px);
+}
+.hh{
+  z-index: 999;
+  height: 45px;
+  position: absolute;
+  transform:translateX(588px)translateY(370px);
+}
+/* maps */
+
+/* Weather */
+  #weather{
+  width: 100%;
+  height: 600px;
+  background-color: #74b9ff;
+
+  .card1{
+      width: 300px;
+      height: 400px;
+      background: #fff;
+      transform: translateX(100px)translateY(40px);
+      border-radius: 10px;
+      #wind1{
+        position: absolute;
+        color: #535353;
+        transform: translateX(30px)translateY(20px);
+      #wind2{
+        color:#1e272e;
+        margin: 100px;
+      }
+      }
+      #hum1{
+        position: absolute;
+        color: #535353;
+        transform: translateX(30px)translateY(60px);
+        #hum2{
+          margin: 100px;
+          color:#1e272e;
+        }
+      }
+      #pres1{
+        position: absolute;
+        color: #535353; 
+        transform: translateX(30px)translateY(100px);
+        #pres2{
+          margin: 90px;
+          color:#1e272e;
+        }
+      }
+      .icons1{
+        width: 300px;
+        height: 200px;
+        border-top-right-radius:10px;
+        border-top-left-radius: 10px;
+        background: #fdcb6ead;
+        .icon{
+            img{
+                width: 100px;
+            }
+            p{
+              color:#795d0a;
+              transform: translateY(-70px)translateX(160px);
+              font-size: 25px;
+            }
+            .p19{
+              font-size: 60px;
+            }
+            .dav{
+              font-size:16px;
+              color: #795d0a;
+              position:absolute;
+              transform: translateX(100px)translateY(40px);
+            }
+        }
+    }
+}
+.card2{
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform: translateX(460px)translateY(-360px);
+    border-radius: 10px;
+    #wind1{
+      position: absolute;
+      color: #535353;
+      transform: translateX(30px)translateY(20px);
+    #wind2{
+      color:#1e272e;
+      margin: 80px;
+    }
+    }
+    #hum1{
+      position: absolute;
+      color: #535353;
+      transform: translateX(30px)translateY(60px);
+      #hum2{
+        margin: 100px;
+        color:#1e272e;
+      }
+    }
+    #pres1{
+      position: absolute;
+      color: #535353; 
+      transform: translateX(30px)translateY(100px);
+      #pres2{
+        margin: 90px;
+        color:#1e272e;
+      }
+    }  
+    .icons2{
+        width: 300px;
+        height: 200px;
+        border-top-right-radius:10px;
+        border-top-left-radius: 10px;
+        background: #fdcb6ead;
+        .icon1{
+            img{
+                width: 100px;
+                margin: 10px;
+            }
+            .cloudy{
+              color:#795d0a;
+              transform: translateY(-90px)translateX(160px);
+              font-size: 25px;
+            }
+            .p12{
+              color:#795d0a;
+              position: absolute;
+              transform: translateY(-90px)translateX(150px);
+              font-size: 60px;
+            }
+            .coun{
+              font-size:16px;
+              color: #795d0a;
+              position:absolute;
+              transform: translateX(100px)translateY(20px);
+            }
+        }
+    }
+    
+}
+.card3{
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform: translateX(830px)translateY(-760px);
+    border-radius: 10px; 
+    #wind1{
+      position: absolute;
+      color: #535353;
+      transform: translateX(30px)translateY(20px);
+    #wind2{
+      color:#1e272e;
+      margin: 80px;
+    }
+    }
+    #hum1{
+      position: absolute;
+      color: #535353;
+      transform: translateX(30px)translateY(60px);
+      #hum2{
+        margin: 100px;
+        color:#1e272e;
+      }
+    }
+    #pres1{
+      position: absolute;
+      color: #535353; 
+      transform: translateX(30px)translateY(100px);
+      #pres2{
+        margin: 90px;
+        color:#1e272e;
+      }
+    }  
+    .icons3{
+        width: 300px;
+        height: 200px;
+        border-top-right-radius:10px;
+        border-top-left-radius: 10px;
+        background: #fdcb6ead;
+        .icon2{
+            img{
+                width: 100px;
+                margin: 10px;
+            }
+            .rain{
+              color:#795d0a;
+              transform: translateY(-90px)translateX(160px);
+              font-size: 25px;
+            }
+            .p8{
+              color:#795d0a;
+              position: absolute;
+              transform: translateY(-90px)translateX(160px);
+              font-size: 60px;
+            }
+            .count{
+              font-size:16px;
+              color: #795d0a;
+              position:absolute;
+              transform: translateX(100px)translateY(20px);
+            }
+        }
+    }
+}
+
+  }
+/* Weather */
+
+/*  footer */
+//   footer{
+//     width: 100%;
+//     height: 300px;
+//     background: #000;
+//   }
+/* footer */
+
+/* card */
+
+
+    
